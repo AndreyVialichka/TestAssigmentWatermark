@@ -67,7 +67,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         watermark.onload = function () {
           const watermarkOpacity = parseFloat(watermarkOpacityInput.value);
-          const watermarkSize = parseInt(watermarkSizeInput.value);
+          const watermarkSize = parseFloat(watermarkSizeInput.value);
 
           const watermarkWidth = watermark.width * watermarkSize;
           const watermarkHeight = watermark.height * watermarkSize;
