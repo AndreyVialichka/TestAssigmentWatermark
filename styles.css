@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(192, 251, 251, 0.5);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Стили для контейнера с изображением */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#main-image {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+/* Стили для контейнера с водяным знаком */
+.watermark-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watermark-image {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width:100px; 
+  height:100px;
+}
+
+.watermark-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.watermark-opacity,
+.watermark-size,
+.watermark-position {
+  margin-top: 10px;
+}
+
+.watermark-position input[type="number"] {
+  width: 50px;
+}
+
+#apply-watermark-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Стили для контейнера с результатом */
+.result-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#result-image {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+#download-link {
+  display: block;
+  margin-top: 10px;
+  color: #4caf50;
+  text-decoration: none;
+}
